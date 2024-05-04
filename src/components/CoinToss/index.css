@@ -1,0 +1,59 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.heading {
+  color: #a35200;
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.sub-heading {
+  color: #334155;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.toss-img {
+  width: 150px;
+}
+
+.toss-coin-btn {
+  height: 30px;
+  width: 100px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 14px;
+}
